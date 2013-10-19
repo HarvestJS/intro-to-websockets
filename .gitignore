@@ -2,5 +2,8 @@
 .svn
 log/*.log
 tmp/**
-node_modules/
+slides/node_modules/
+exercises/socketio/node_modules/
+exercises/socketio_express/node_modules/
+exercises/chatroom/node_modules/
 .sass-cache
