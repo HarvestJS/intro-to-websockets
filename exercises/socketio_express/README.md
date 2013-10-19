@@ -30,18 +30,11 @@ to this:
 ```javascript
 
   var server = http.createServer(app);
-
+  var io = socketio.listen(server);
   server.listen(app.get('port'), function(){
 
 ```
 
-
-Now, just after our "var server..." line and before the "server.listen..." line, let's add in our socket listener:
-
-```javascript
-
-  var io = socketio.listen(server);
-```
 
 And finally we can add our app.js connection event handling code from the previous exercise to the bottom of this file
 
