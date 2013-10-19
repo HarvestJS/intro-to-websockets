@@ -45,6 +45,9 @@ io.sockets.on('connection', function (socket) {
     console.log(data);
   });
 
-  //add code here to handle incoming chat message events
-
+  socket.on('chat', function (data) {
+    if(data.name){
+      socket.broadcast.emit('chat',data);
+    }
+  });
 });

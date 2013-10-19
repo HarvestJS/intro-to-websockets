@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Chat
+  div(id="output", class="output")
+  div
+    span Name:
+    input(id="nameTxt", type="text")
+  div
+    span Say:
+    input(id="msgTxt", type="text")
+    button(id="sendBtn") Send

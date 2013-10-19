@@ -53,3 +53,7 @@ var xhr = new XMLHttpRequest();
 * Socket.io + Express
 * Chatroom
 
+--
+# Thanks Rackspace!
+
+
