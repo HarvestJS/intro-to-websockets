@@ -3,7 +3,7 @@
 First, install socket.io dependency:
 
 `
-npm install
+npm install socket.io
 `
 
 ## Update app.js for the socket.io server
