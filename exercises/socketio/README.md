@@ -21,7 +21,7 @@ Thenw we need to register a callback function to handle client connection events
 
   io.sockets.on('connection', function (socket) {
     ...
-  }
+  });
 ```
 
 Inside of that function we can immediately send a message to the client that connected:
